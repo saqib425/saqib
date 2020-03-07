@@ -389,9 +389,9 @@ font-size: 100%;
 
   background-color:yellow;
   height:500px;
-  margin:2%;
+  margin:;
   position: relative;
-  left:4%;
+  left:;
 
 }
 
@@ -400,7 +400,8 @@ font-size: 100%;
 
   background-color:skyblue;
   height:100%;
-  width:100%;
+  padding:10px;
+  
  
 
 }
@@ -431,6 +432,7 @@ font-size: 100%;
 
   background-color:rgb(11, 216, 28);
   height:200px;
+  width:100%;
  
   border-radius:4px solid rgb(238, 12, 12);
   
