@@ -329,6 +329,17 @@ p {
 }
 
 
+#particle-js{
+
+  /* background-color: rgba(0, 0, 255, 0.479); */
+  top:0;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+
+
 #particles-js{
 
   /* background-color: rgba(0, 0, 255, 0.479); */
@@ -389,9 +400,9 @@ font-size: 100%;
 
   background-color:yellow;
   height:500px;
-  margin:;
+ 
   position: relative;
-  left:;
+ 
 
 }
 
