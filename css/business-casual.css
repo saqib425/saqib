@@ -83,6 +83,9 @@ p {
   font-family: 'Raleway';
   border-top: 6px inset yellow;
   border-bottom: 6px outset yellow;
+  position:sticky;
+  top:-10px;
+  z-index: 3;
 }
 
 #mainNav .navbar-brand {
@@ -437,5 +440,14 @@ font-size: 100%;
 /* apricopt styling starts here  */
 .navbar {
   padding:0px !important;
+}
+
+
+.innerZone {
+  height: 530px; 
+  background-color:rgb(226, 70, 43);
+  border : 3px solid rgb(167, 157, 22);
+  border-left:10px inset  yellow;
+  box-shadow: 3px 5px 5px;
 }
 /* apricopt styling ends here */
