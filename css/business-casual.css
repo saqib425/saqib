@@ -79,10 +79,13 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(15, 47, 32, 0.92);
+  background-color:rgba(15, 47, 32, 0.64);
   font-family: 'Raleway';
   border-top: 6px inset yellow;
   border-bottom: 6px outset yellow;
+  position:sticky;
+  top:-10px;
+  z-index: 3;
 }
 
 #mainNav .navbar-brand {
@@ -326,6 +329,17 @@ p {
 }
 
 
+#particle-js{
+
+  /* background-color: rgba(0, 0, 255, 0.479); */
+  top:0;
+  width: 100%;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+
+
 #particles-js{
 
   /* background-color: rgba(0, 0, 255, 0.479); */
@@ -386,9 +400,9 @@ font-size: 100%;
 
   background-color:yellow;
   height:500px;
-  margin:2%;
+ 
   position: relative;
-  left:4%;
+ 
 
 }
 
@@ -397,7 +411,8 @@ font-size: 100%;
 
   background-color:skyblue;
   height:100%;
-  width:100%;
+  padding:10px;
+  
  
 
 }
@@ -428,6 +443,7 @@ font-size: 100%;
 
   background-color:rgb(11, 216, 28);
   height:200px;
+  width:100%;
  
   border-radius:4px solid rgb(238, 12, 12);
   
@@ -438,6 +454,7 @@ font-size: 100%;
 .navbar {
   padding:0px !important;
 }
+<<<<<<< HEAD
 /* apricopt styling ends here */
 .position{
   background-color: lawngreen;
@@ -527,3 +544,15 @@ position: relative;
   border-radius:4px solid rgb(236, 10, 10);
   
 }
+=======
+
+
+.innerZone {
+  height: 530px; 
+  background-color:rgb(226, 70, 43);
+  border : 3px solid rgb(167, 157, 22);
+  border-left:10px inset  yellow;
+  box-shadow: 3px 5px 5px;
+}
+/* apricopt styling ends here */
+>>>>>>> 4389647cb403ba80df34dc6351ab3a12b4e4b098
