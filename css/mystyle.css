@@ -1,0 +1,661 @@
+	* {
+		box-sizing: border-box;
+		scroll-behavior: smooth;
+		
+	}
+
+	label {
+	font-weight: bold;
+	}
+
+
+
+
+
+	
+	
+
+
+
+
+.block-counter-1 .number {
+    color: #fd5f00;
+    font-size: 4rem;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-family: "Anton", sans-serif;
+	    }
+
+
+	#upper_window {
+		height: 130px;
+		background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.7)),
+		url(../images/woman4.jpg);
+		background-attachment:fixed;
+		/*background-position:top;*/
+		
+	}
+
+	
+
+	#logofinal {
+		height: 100px;	
+		/*opacity: 0.8;*/
+	}
+
+	#upper_window #maintitle {
+		position: absolute;
+		top:2.5vh;
+		left:19vw;
+		font-size: 7.3vw;
+		line-height: 2;
+		letter-spacing: -0.019em;
+		font-weight: 900;
+		padding-left: 36px;
+		padding-top: 10px;
+		text-shadow: 3px 3px 5px #9d0808;
+		color: #d2be40;
+		font-family:kalam;
+		opacity: 0.8;
+
+	}
+
+
+	#upper_window i {
+		font-size: 30px;
+		color:#aba36b;
+	}
+
+	#z_navbar {
+		background:#415875 !important;
+		box-shadow: 1px 2px 12px grey;
+		
+	}
+
+	.navbar-brand {
+		font-family:Script;
+		background-color: #aba36b8c;
+		border-radius: 40px;
+		padding: 2px 10px 2px 10px;
+		}
+
+	nav .active {
+		border-bottom: 2px solid #aba36b8c;
+		text-shadow: 1px 1px 9px gold;
+
+	}
+
+	nav .nav-link {
+		padding-bottom: 2px;
+	}
+
+	.carousel-inner h3 {
+		color:#bfb45e; 
+		font-size: 40px;
+		background-color:#103c0bbd;
+		border-radius: 50px 4px 0px 1px;
+		font-family:Segoe Print;
+		font-weight: 900;
+		box-shadow:0px 0px 3px gold;
+	}
+
+
+	.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 7px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+	.row {
+		margin: 0px;
+	 }
+
+
+/*_____________________________________row1 starts _______________________________*/
+	#feedback {
+		background: #9e1574b3;
+    height: 54px;
+    width: 181px;
+    position:fixed;
+    bottom:0px;
+    right: 0px;
+    border-radius: 58px 0px 0px 8px;
+
+
+	}
+
+
+
+
+
+	#row1 {
+
+		padding: 30px;
+
+		background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),
+		url(../images/pattern.jpg);
+		/*height: 700px;*/
+		background-attachment: fixed;
+	}
+
+	#row1 #row1_a {
+		height: 500px;
+		/*background: grey;*/
+	}
+	#row1  img {
+		
+		opacity: 1;
+    width: 85%;
+    margin-top: 15px;
+    border-radius: 62px;
+    box-shadow: 3px 3px 2px grey;
+    background-size: contain;
+	/*	animation: z_fade;
+		animation-duration: 3s;*/
+	}
+
+
+	#row1 h3 {
+
+		/*animation-name: z_slide_right;
+		animation-duration: 2.5s;*/
+
+	}
+
+
+
+
+
+	#row1 p {
+		
+		padding-left:30px;
+		/*animation: z_slide_left;
+		animation-duration: 2.5s;*/
+	}
+    
+
+    #row1 #row1_b {
+    	background-color:#bfb45e52 !important;
+    }
+
+    .pinky {
+    	   width: 70%;
+    	   border-left:6px solid #709e15a3;
+    	    padding-left: 6px;
+    }
+
+    .pinky_right {
+    	border-right:6px solid #709e15a3;
+    	    padding-left: 6px;
+
+    }
+   
+	
+	/*+_________________________row1 ends _________________________________*/
+
+/*_____________________________row2 starts __________________________*/
+	#row2 {
+		padding-bottom: 30px;
+		padding-top: 40px;
+		
+	}
+
+	.z_titles_container {
+		padding: 20px 20px 20px 20px;
+	}
+	.z_titles {
+	background: #034955;
+    width:20%;
+    height:50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+		
+	}
+
+	@media only screen and (max-width:1024px) {
+
+	.z_titles {
+		width:50%;
+	} 
+
+
+	}
+
+
+
+	@media only screen and (max-width:800px) {
+
+	.z_titles {
+		width:50%;
+	} 
+
+	#solarslider {
+		display: none;
+	}
+
+
+	}
+
+
+	@media only screen and (max-width:500px) {
+
+	.z_titles {
+		width:80%;
+	} 
+
+	#solarslider {
+		display: none;
+	}
+
+	#leadswalipic {
+		padding-top:110px;
+	}
+
+	.jumbotron {
+		padding: 20px 10px 20px 10px;
+	}
+
+	.pinky {
+		width: 90%;
+	}
+
+
+	}
+
+
+	@media only screen and (max-width:359px) {
+
+		#leadswalipic {
+		padding-top:170px;
+	}
+
+	}
+
+
+	/*.z_titles h3 {
+		font-size: 100%;
+	}*/
+
+
+	.z_titles h3 {
+		color:white;
+		text-align: center;
+		padding-top: 10px;
+		
+
+	}
+
+
+
+	.row2_padding {
+		padding: 30px 30px 30px 30px;
+	}
+
+
+
+	#row2 #row2_a {
+		padding-right: 20px;
+		background-color:#aba36b52;
+		padding-top: 30px;
+		/*height:280px;*/
+		/*border:1px solid #052546;*/
+		box-shadow: 3px 3px 5px grey;	
+		position: relative;	
+		padding-left: 20px;
+		cursor: pointer;
+		padding-bottom: 30px;
+	}
+
+
+	#row2 .row2_a_img  {
+		background-color:#aba36b8a;
+		width: 156px;
+    	height:156px;
+    	object-fit: cover;
+    	border-radius:50%;
+    	display: block;
+    	margin-bottom: 10px;
+    	box-shadow: 1px 1px 8px #034955;
+    	padding:20px;
+
+	}
+
+
+	#row2_a:hover .row2_a_img {
+		background-color: #aba36beb;
+	} 
+
+	#row2_b:hover .row2_a_img {
+		background-color: #aba36beb;
+	} 
+
+	#row2_c:hover .row2_a_img {
+		background-color: #aba36beb;
+	} 
+
+
+
+ 	#row2 #row2_a h4 {
+ 		text-align: center;
+ 	}
+
+ 	#row2 #row2_b h4 {
+ 		text-align: center;
+ 	}
+
+	
+
+	#row2 #row2_b {
+		padding-right: 20px;
+		background-color:#aba36b52;
+		padding-top: 30px;
+		/*height:280px;*/
+		/*border:1px solid #052546;*/
+		box-shadow: 3px 3px 5px grey;	
+		position: relative;	
+		padding-left: 20px;
+		cursor: pointer;
+		padding-bottom: 30px;
+		
+
+	}
+
+	#row_appoint {
+		/*height: 400px;*/
+		/*background-color: pink;*/
+
+	}
+
+	#row_appoint_a {
+		/*height: 600px;*/
+		/*background-color: lightgreen;*/
+		padding-bottom: 50px;
+	}
+
+	#row_appoint_b {
+		/*height: 600px;*/
+		/*background-color: lightgrey;*/
+		padding-bottom: 50px;
+	}
+
+
+	/*row2_appoint ends*/
+
+
+	/*row2_bill starts*/
+
+
+	 #row_bill {
+		/*height: 400px;*/
+
+
+	}
+
+	#row_bill_a {
+		background-image:linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), 
+		 url(../images/solarwater.jpg);
+		 background-attachment: fixed;
+		 background-repeat: no-repeat;
+		/*height:600px;*/
+		padding-top: 50px;
+		/*background-color: pink;*/
+		padding-bottom: 10px;
+	}
+
+	 #row_bill_b {
+		/*height: 600px;*/
+		/*background-color: green;*/
+		
+	}
+
+	/*row2_bill ends*/
+		
+	/*________________________row2 ends ____________________________*/
+
+
+	/*________________________row3 starts __________________________*/
+
+	#row3 {
+		/*height: 500px;*/
+		/*background:#052546;*/
+		padding: 100px 0px 0px 0px;
+	
+	}
+
+	#row3 #partner_window  {
+		background-image:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.6)), 
+		url(../images/pattern1.jpg);
+		background-attachment: fixed;
+		background-position: top;
+		margin:0px;
+		position: relative;
+		padding:150px 0px 150px 0px;
+	}
+
+	#row3 #partner_window #upperstrip {
+		background:#0525469e;
+		height:100px;
+		width:100%;
+		position: absolute;
+		top:0;
+
+
+	}
+
+	#row3 #partner_window #upperstrip h3 {
+		color: white;
+		text-align: center;
+		padding-top: 30px;
+
+	}
+
+	
+
+	
+
+	#row3 #partner_window #lowerstrip {
+		background:#0525469e;
+		height:100px;
+		width:100%;
+		position: absolute;
+		bottom:0;
+
+	}
+
+
+	#row3 #partner_window .img_company {
+		height: 100px;
+
+	}
+
+
+	/*___________________   row3 ends ______________*/
+
+	/*_____________________row4 starts _____________*/
+
+	#row4 {
+		/*height: 500px;*/
+		/*background: lightblue;*/
+		padding-top: 100px;
+
+	}
+
+	#row4 #row4_a {
+		/*height: 600px;*/
+		background-color: white;
+		padding-bottom: 30px;
+
+	}
+
+	#row4 #row4_a #row4_a_upper {
+		padding: 30px 0px 10px 0px;
+
+	}
+
+	#row4 #row4_a #row4_a_upper img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	#row4 #row4_a #row4_a_lower {
+		background: #034955;
+		/*height: 300px;*/
+		
+		}
+
+
+	
+
+
+
+
+
+
+	#row4 #row4_b {
+		/*height: 600px;*/
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),
+		url(../images/solarhome.jpg);
+		padding-top: 75px;
+		background-attachment: fixed;
+		
+	}
+
+
+
+	#row4 #row4_c {
+		/*height: 600px;*/
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),
+		url(../images/connected.png);
+		padding-top: 75px;
+		background-attachment: fixed;
+		
+	}
+
+	
+
+
+
+
+	/*_____________row4 ends _____________*/
+
+
+	/*-___________row5 starts________________*/
+
+	#row5 {
+		padding-top: 100px;
+
+
+	}
+
+	#row5 #row5_a {
+		width: 100%;
+		background-color: ;
+
+	}
+
+	#row5 #row5_a img {
+
+	}
+
+	.z_subtitle {
+
+		border-left: 6px solid #052546;
+    	background-color: #aba36b8a;
+    	padding-top: 20px;
+    	padding-left: 5px;
+    	box-shadow: 2px 2px 4px #5d5656;
+	}
+
+	#row5_a_1 {
+		height: 400px;
+	}
+
+	.z_list_1 {
+		background-color: #052546;
+		color:white;
+	}
+
+
+	#row5_a_2 {
+		height: 400px;
+		/*padding:30px;*/
+		padding-left: 0px;
+	}
+
+	#row5_a_2 img {
+		border-radius: 0px 40px 40px 0px;
+
+	}
+
+
+	#row5 #row5_b {
+		/*height: 300px;*/
+		
+		background-color: #052546;
+		padding-bottom: 30px;
+
+	}
+
+	#row5 #row5_b label {
+		color:white;
+	}
+
+	/* __________ row6 starts _______________*/
+
+
+	#row6 {
+		/*height: 500px;*/
+		padding-top: 100px;
+		padding-bottom: 30px;
+	} 
+
+	#row6 #row6_a {
+		height: 600px;
+		padding-top: 100px;
+		border-radius: 40px 0px 0px 40px;
+		background-color: #aba36b;
+	}
+
+	@media only screen and (max-width:575px) {
+		#row6 #row6_a {
+			border-radius: 40px 40px 0px 0px;
+			height: 300px;
+			padding-top: 50px;
+
+		}
+
+
+	}
+
+	#row6 #row6_b {
+		height: 600px;
+		background: #034955;
+
+		
+	}
+
+
+	/*____________row6 ends _________________*/
+
+	/*_________ row_last starts  ____________*/
+
+	#row_last {
+
+		height: 100px;
+		background:#052546;
+
+	}
+
+	/*__________row_last ends _________*/	
+
+
+
