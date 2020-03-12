@@ -398,7 +398,7 @@ font-size: 100%;
 
 .llll{
 
-  background-color:yellow;
+  background-color:rgb(228, 228, 222);
   height:500px;
  
   position: relative;
@@ -441,7 +441,7 @@ font-size: 100%;
 
 .pppp{
 
-  background-color:rgb(11, 216, 28);
+  background-color:rgba(11, 216, 28, 0.26);
   height:200px;
   width:100%;
  
@@ -626,3 +626,314 @@ overflow: hidden;
   background-color: rgb(15, 47, 32) ;
 
 }
+.card-heading{
+  background-color: rgb(99, 100, 98);
+  height: 100px;
+}
+.cards-logo-size{
+  height: 160px;
+  border:2ps solid green ;
+  padding-left:80px ;
+}
+.font{
+  font-family: monospace;
+  color:lightgreen;
+}
+.logo-contant{
+  color: grey;
+  text-align: center;
+  display: flex;
+  font-size: unset;
+  
+}
+
+
+
+/*_____________________________row2 starts __________________________*/
+#row2 {
+  padding-bottom: 30px;
+  padding-top: 40px;
+  
+}
+
+.z_titles_container {
+  padding: 20px 20px 20px 20px;
+}
+.z_titles {
+background: #04788d;
+  width:20%;
+  height:50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  
+}
+
+@media only screen and (max-width:1024px) {
+
+.z_titles {
+  width:50%;
+} 
+
+
+}
+
+
+
+@media only screen and (max-width:800px) {
+
+.z_titles {
+  width:50%;
+} 
+
+#solarslider {
+  display: none;
+}
+
+
+}
+
+
+@media only screen and (max-width:500px) {
+
+.z_titles {
+  width:80%;
+} 
+
+#solarslider {
+  display: none;
+}
+
+#leadswalipic {
+  padding-top:110px;
+}
+
+.jumbotron {
+  padding: 20px 10px 20px 10px;
+}
+
+.pinky {
+  width: 90%;
+}
+
+
+}
+
+
+@media only screen and (max-width:359px) {
+
+  #leadswalipic {
+  padding-top:170px;
+}
+
+}
+
+
+/*.z_titles h3 {
+  font-size: 100%;
+}*/
+
+
+.z_titles h3 {
+  color:white;
+  text-align: center;
+  padding-top: 10px;
+  
+
+}
+
+
+
+.row2_padding {
+  padding: 30px 30px 30px 30px;
+}
+
+
+
+#row2 #row2_a {
+  padding-right: 20px;
+  background-color:#f3e68252;
+  padding-top: 30px;
+  /*height:280px;*/
+  /*border:1px solid #052546;*/
+  box-shadow: 3px 3px 5px grey;	
+  position: relative;	
+  padding-left: 20px;
+  cursor: pointer;
+  padding-bottom: 30px;
+}
+
+
+#row2 .row2_a_img  {
+  background-color:#ada3548a;
+  width: 156px;
+    height:156px;
+    object-fit: cover;
+    border-radius:50%;
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 8px #034955;
+    padding:20px;
+
+}
+
+
+#row2_a:hover .row2_a_img {
+  background-color: #aba36beb;
+} 
+
+#row2_b:hover .row2_a_img {
+  background-color: #aba36beb;
+} 
+
+#row2_c:hover .row2_a_img {
+  background-color: #aba36beb;
+} 
+
+
+
+ #row2 #row2_a h4 {
+   text-align: center;
+ }
+
+ #row2 #row2_b h4 {
+   text-align: center;
+ }
+
+
+
+#row2 #row2_b {
+  padding-right: 20px;
+  background-color:#aba36b52;
+  padding-top: 30px;
+  /*height:280px;*/
+  /*border:1px solid #052546;*/
+  box-shadow: 3px 3px 5px grey;	
+  position: relative;	
+  padding-left: 20px;
+  cursor: pointer;
+  padding-bottom: 30px;
+  
+
+}
+
+#row_appoint {
+  /*height: 400px;*/
+  /*background-color: pink;*/
+
+}
+
+#row_appoint_a {
+  /*height: 600px;*/
+  /*background-color: lightgreen;*/
+  padding-bottom: 50px;
+}
+
+#row_appoint_b {
+  /*height: 600px;*/
+  /*background-color: lightgrey;*/
+  padding-bottom: 50px;
+}
+
+
+/*row2_appoint ends*/
+
+
+/*row2_bill starts*/
+
+
+ #row_bill {
+  /*height: 400px;*/
+
+
+}
+
+#row_bill_a {
+  background-image:linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), 
+   url(../images/solarwater.jpg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+  /*height:600px;*/
+  padding-top: 50px;
+  /*background-color: pink;*/
+  padding-bottom: 10px;
+}
+
+ #row_bill_b {
+  /*height: 600px;*/
+  /*background-color: green;*/
+  
+}
+
+/*row2_bill ends*/
+  
+/*________________________row2 ends ____________________________*/
+
+
+	/*_____________________row4 starts _____________*/
+
+	#row4 {
+		/*height: 500px;*/
+		/*background: lightblue;*/
+		padding-top: 100px;
+
+	}
+
+	#row4 #row4_a {
+		/*height: 600px;*/
+		background-color: white;
+		padding-bottom: 30px;
+
+	}
+
+	#row4 #row4_a #row4_a_upper {
+		padding: 30px 0px 10px 0px;
+
+	}
+
+	#row4 #row4_a #row4_a_upper img {
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	#row4 #row4_a #row4_a_lower {
+		background: #034955;
+		/*height: 300px;*/
+		
+		}
+
+
+	
+
+
+
+
+
+
+	#row4 #row4_b {
+		/*height: 600px;*/
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),
+		url(../images/solarhome.jpg);
+		padding-top: 75px;
+		background-attachment: fixed;
+		
+	}
+
+
+
+	#row4 #row4_c {
+		/*height: 600px;*/
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),
+		url(../images/connected.png);
+		padding-top: 75px;
+		background-attachment: fixed;
+		
+	}
+
+	
+
+
+
+
+	/*_____________row4 ends _____________*/

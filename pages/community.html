@@ -20,7 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/business-casual.css" rel="stylesheet">
-
+  
   </head>
 
   <body>
@@ -257,6 +257,155 @@
         </div>
       </div>
     </section>
+
+
+
+
+  <!-- row4 starts -->
+
+	<div class="row" id="row4" style="padding-top:0px;">
+
+    <div class="col-lg-12 col-sm-12 col-12 col-md-12 z_titles_container">
+    <div class="z_titles" style="width: 45%;">
+      <h3>Get Free Quotations today!</h3>
+    </div>
+    </div>
+  
+    <div class="col-12 col-sm-12 col-md-7 col-lg-7" id="row4_a">
+      <div class="col-lg-12 col-md-6 col-sm-12 col-12 pt-4">
+        <h4 class="z_subtitle">PPA & Zero Solar Program</h4>
+      </div>
+      <div id="row4_a_upper">
+        <img src="images/family.jpg" class="">
+      </div>
+      <div id="row4_a_lower">
+        <p class="text-white pt-3 pl-3 pr-3 pb-3">
+          Switching to solar energy is one of the best decisions you can make today. Going solar can help you:
+        </p>
+        <h6 class="text-white pl-1" >Reduce or Even Eliminate Energy Bills</h6>
+        <p class="text-white  pl-3 pr-3 pb-3">
+          As a homeowner, you are probably used to a good portion of your monthly budget going to your energy bill. After all, you need electricity to be comfortable. But theres a way to reduce or even do away with your electricity costs by switching to solar power.
+        </p>
+        <h6 class="text-white pl-1">Take Advantage of Incentives</h6>
+        <p class="text-white  pl-3 pr-3 pb-3">
+          Going solar has become more affordable today than it has ever been thanks to incentives. For instance, you can take advantage of substantial credits on your state and federal taxes.
+        </p>
+        <h6 class="text-white pl-1">Increase Property Value</h6>
+        <p class="text-white  pl-3 pr-3 pb-3">
+         Buyers are willing to pay a premium for homes with solar energy systems. So if you have plans to sell your residential property in the future, installing solar energy panels today is a great idea. Zillow reports up to a 5.1% increase in total home value! 
+        </p>
+        
+      </div>
+      
+    </div>
+      <div class="col-12 col-sm-12 col-md-5 col-lg-5" id="row4_b" >
+        <div class="pt-3" >
+        <h3 class="text-white">Your Data is precious for us!</h3>
+        </div>
+        <div class="p-4">
+          <form action="form_clients.php" method="POST" data-aos="fade-up" enctype="multipart/form-data">
+            <div class="form-group">
+              <label class="text-white">Customer Name:</label>
+              <input type="text" name="z_name" class="form-control" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+              <label class="text-white">Address:</label>
+              <input type="text" name="z_address" class="form-control" placeholder="Enter your Address" required>
+            </div>
+             <div class="input-group mb-3">
+                <div class="input-group-prepend">
+               <label class="input-group-text" for="inputGroupSelect01">State:</label>
+             </div>
+             <select class="custom-select" id="inputGroupSelect01" name="z_state">
+               <option>Choose...</option>
+                <option value="Utah" required>Utah</option>
+                <option value="Nevada">Nevada</option>
+                <option value="California">California</option>
+                <option value="New Jersey" >New Jersey</option>
+             </select>
+            </div>
+            <div class="form-group">
+              <label class="text-white">Contact Number:</label>
+              <input type="text" name="z_num" class="form-control" placeholder="Contact number">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+               <label class="input-group-text" for="inputGroupSelect01">Property Type:</label>
+             </div>
+             <select class="custom-select" id="inputGroupSelect01" name="z_property">
+               <option selected>Choose...</option>
+                <option value="Residential">Residential</option>
+                <option value="Commercial">Commercial</option>
+             </select>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+               <label class="input-group-text" for="inputGroupSelect01">Shade:</label>
+             </div>
+             <select class="custom-select" id="inputGroupSelect01" name="z_shade">
+               <option selected>Choose...</option>
+                <option value="Little shade">Little shade</option>
+                <option value="No shade">No shade</option>
+             </select>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+               <label class="input-group-text" for="inputGroupSelect01">Credit Score:</label>
+             </div>
+             <select class="custom-select" id="inputGroupSelect01" name="z_score">
+               <option selected>Choose...</option>
+                <option value="Above 650 points">Above 650 points</option>
+                </select>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+               <label class="input-group-text" for="inputGroupSelect01">Electric Bill:</label>
+             </div>
+             <select class="custom-select" id="inputGroupSelect01" name="z_bill" required>
+               <option selected>Choose...</option>
+                <option value="$100-$150">$100 - $150</option>
+                <option value="$150-$200">$150 - $200</option>
+                <option value="above $200">above $200</option>
+             </select>
+            </div>
+            <div class="form-group">
+               <label for="comment"><p class="text-white">Call back time:</p></label>
+                 <textarea class="form-control" rows="1" id="comment" name="z_callback"></textarea>
+            </div>
+  
+            <!-- images collector starts  -->
+  
+              <label class="text-white">Electric bill copy (optional):</label>
+            <div class="input-group">
+              <input type="file" name="image">
+              </div>
+              <!-- img collector ends -->
+              <hr>
+            <div class="form-check-inline">
+                <label class="form-check-label">
+                 <input type="checkbox" class="form-check-input" value="yes" required><p class="text-white">I confirm that I am the property owner.</p>
+              </label>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+            </div>
+  
+  
+            
+          </form>
+        </div>
+      </div>
+  </div>
+  
+  <!-- row4 ends -->
+  
+
+
+
+
+
+
+
 
     <section class="page-section about-heading">
       <div class="container">
