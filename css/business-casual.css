@@ -400,8 +400,9 @@ font-size: 100%;
 
   background-color:rgb(228, 228, 222);
   height:500px;
- 
+  padding:0px 15px 0px 15px;
   position: relative;
+  border-radius: 15px 0px 10px 5px;
  
 
 }
@@ -441,9 +442,14 @@ font-size: 100%;
 
 .pppp{
 
+<<<<<<< HEAD
   background-color:rgba(11, 216, 28, 0.26);
+=======
+  /* background-color:rgb(11, 216, 28); */
+>>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
   height:200px;
   width:100%;
+  padding-top:40px;
  
   border-radius:4px solid rgb(238, 12, 12);
   
@@ -626,6 +632,7 @@ overflow: hidden;
   background-color: rgb(15, 47, 32) ;
 
 }
+<<<<<<< HEAD
 .card-heading{
   background-color: rgb(99, 100, 98);
   height: 100px;
@@ -690,10 +697,20 @@ background: #04788d;
   display: none;
 }
 
+=======
+
+
+.logos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 5px ;
+>>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
 
 }
 
 
+<<<<<<< HEAD
 @media only screen and (max-width:500px) {
 
 .z_titles {
@@ -738,10 +755,18 @@ background: #04788d;
   color:white;
   text-align: center;
   padding-top: 10px;
+=======
+.zheading {
+  text-align: center;
+  color:  rgb(15, 47, 32);
+  padding: 0px 15px;
+  font-size: 30px;
+>>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
   
 
 }
 
+<<<<<<< HEAD
 
 
 .row2_padding {
@@ -937,3 +962,38 @@ background: #04788d;
 
 
 	/*_____________row4 ends _____________*/
+=======
+.zpara {
+  padding-top: 60px;
+  text-align: center;
+
+}
+
+
+/* heading styling starts here above cards */
+
+.green_heading {
+  padding-top: 150px;
+  background-color:  rgba(81, 128, 59, 0.54);
+  height: 400px;
+}
+
+.green_heading > h1 {
+  text-align: center;
+  font-size: 80px;
+  color: rgb(94, 236, 11);
+  text-shadow: -2px -2px 5px yellow;
+
+
+}
+
+.green_heading > h2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(94, 236, 11);
+  text-shadow: -2px -2px 5px rgb(73, 73, 25);
+}
+
+
+/* heading styling ends here */
+>>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
