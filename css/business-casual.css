@@ -400,8 +400,9 @@ font-size: 100%;
 
   background-color:yellow;
   height:500px;
- 
+  padding:0px 15px 0px 15px;
   position: relative;
+  border-radius: 15px 0px 10px 5px;
  
 
 }
@@ -441,9 +442,10 @@ font-size: 100%;
 
 .pppp{
 
-  background-color:rgb(11, 216, 28);
+  /* background-color:rgb(11, 216, 28); */
   height:200px;
   width:100%;
+  padding-top:40px;
  
   border-radius:4px solid rgb(238, 12, 12);
   
@@ -626,3 +628,56 @@ overflow: hidden;
   background-color: rgb(15, 47, 32) ;
 
 }
+
+
+.logos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 3px 3px 5px ;
+
+}
+
+
+.zheading {
+  text-align: center;
+  color:  rgb(15, 47, 32);
+  padding: 0px 15px;
+  font-size: 30px;
+  
+
+}
+
+.zpara {
+  padding-top: 60px;
+  text-align: center;
+
+}
+
+
+/* heading styling starts here above cards */
+
+.green_heading {
+  padding-top: 150px;
+  background-color:  rgba(81, 128, 59, 0.54);
+  height: 400px;
+}
+
+.green_heading > h1 {
+  text-align: center;
+  font-size: 80px;
+  color: rgb(94, 236, 11);
+  text-shadow: -2px -2px 5px yellow;
+
+
+}
+
+.green_heading > h2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(94, 236, 11);
+  text-shadow: -2px -2px 5px rgb(73, 73, 25);
+}
+
+
+/* heading styling ends here */
