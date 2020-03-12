@@ -442,11 +442,8 @@ font-size: 100%;
 
 .pppp{
 
-<<<<<<< HEAD
   background-color:rgba(11, 216, 28, 0.26);
-=======
   /* background-color:rgb(11, 216, 28); */
->>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
   height:200px;
   width:100%;
   padding-top:40px;
@@ -632,7 +629,6 @@ overflow: hidden;
   background-color: rgb(15, 47, 32) ;
 
 }
-<<<<<<< HEAD
 .card-heading{
   background-color: rgb(99, 100, 98);
   height: 100px;
@@ -644,7 +640,7 @@ overflow: hidden;
 }
 .font{
   font-family: monospace;
-  color:lightgreen;
+  color:rgb(36, 7, 199);
 }
 .logo-contant{
   color: grey;
@@ -697,7 +693,6 @@ background: #04788d;
   display: none;
 }
 
-=======
 
 
 .logos {
@@ -705,12 +700,10 @@ background: #04788d;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 3px 3px 5px ;
->>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
 
 }
 
 
-<<<<<<< HEAD
 @media only screen and (max-width:500px) {
 
 .z_titles {
@@ -755,18 +748,15 @@ background: #04788d;
   color:white;
   text-align: center;
   padding-top: 10px;
-=======
 .zheading {
   text-align: center;
   color:  rgb(15, 47, 32);
   padding: 0px 15px;
   font-size: 30px;
->>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
   
 
 }
 
-<<<<<<< HEAD
 
 
 .row2_padding {
@@ -962,7 +952,6 @@ background: #04788d;
 
 
 	/*_____________row4 ends _____________*/
-=======
 .zpara {
   padding-top: 60px;
   text-align: center;
@@ -996,4 +985,3 @@ background: #04788d;
 
 
 /* heading styling ends here */
->>>>>>> 7daf4a018c8db26332e6db049f38864dc0cef2d9
